@@ -1,7 +1,7 @@
 import data from '../data/testData.json';
 import testTemplate from '../templates/test.hbs';
 
-export default {
+// export default {
     init: () => {
         const arr = [];
 
@@ -10,10 +10,13 @@ export default {
         });
 
         return arr;
-    },
-    filter: (num) => {
-        return data.filter(obj => obj.id == num);
-    }
-};
+    };
+    // filter: (num) => {
+    //     return data.filter(obj => obj.id == num);
+    // };
+// };
 
 
+init();
+
+document.getElementById('container').innerHTML = init();

@@ -1,0 +1,99 @@
+
+body{
+    margin: 0px 10px;
+    padding: 0px;
+}
+.masthead{
+    border-bottom: 2px solid black;
+    /* padding-bottom: 20px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item{
+display: inline;
+text-transform: uppercase;
+margin: 0px 10px;
+}
+.menu-item a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 17px 20px;
+    
+}
+.menu-item.active a{
+    background-color: brown;
+    color: white;
+}
+.button{
+    margin-right: 60px;
+    background-color: rgb(175, 109, 219);
+    cursor: pointer;
+    border: none;
+}
+.button:hover{
+    background-color: rgb(221, 119, 88);
+}
+
+.user-profile{
+    padding: 10px;
+    margin-top: 50px;
+    max-width: 300px;
+    min-width: 250px;
+    /* width: 600px; */
+    /* border: 2px solid black; */
+    /* display: flex; */
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.avatars{
+    /* border: 1px solid red; */
+    width: 200px;
+    margin: 0px auto;
+    display: block;
+}
+
+.test-container{
+    margin: 20px 0px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+.info{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.info li{
+    padding: 3px 0px;
+}
+.cart-name{
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    margin: 10px 0px;
+}
+section{
+    display: flex;
+}
+/* Боковое меню */
+.menu-container{
+    margin: 20px 0px;
+    display: inline;
+    width: 10%;
+    border: 2px solid red;
+}
+
+.btn{
+    display: block;
+    width: 70%;
+    margin: 5px auto;
+    cursor: pointer;
+    /* background-color: black; */
+}
+.btn:hover {
+    background-color: black;
+    color: white;
+}
