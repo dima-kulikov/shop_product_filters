@@ -1,8 +1,8 @@
-import test from './test';
+import './user-profile';
 
-test.init();
+// test.init();
 
-document.getElementById('container').innerHTML = test.init();
+// document.getElementById('container').innerHTML = test.init();
 
 
 

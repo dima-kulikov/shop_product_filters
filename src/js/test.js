@@ -1,8 +1,8 @@
 import data from '../data/testData.json';
 import testTemplate from '../templates/test.hbs';
 
-// export default {
-    init: () => {
+export default {
+    init () {
         const arr = [];
 
         data.forEach(item => {
@@ -10,13 +10,14 @@ import testTemplate from '../templates/test.hbs';
         });
 
         return arr;
-    };
-    // filter: (num) => {
-    //     return data.filter(obj => obj.id == num);
-    // };
-// };
+    },
+    filter: (num) => {
+        return data.filter(obj => obj.id == num);
+    }
+};
 
 
 init();
+
 
 document.getElementById('container').innerHTML = init();
