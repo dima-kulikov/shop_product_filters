@@ -1,4 +1,6 @@
 import './user-profile';
+import './filter-prise';
+
 
 // файл в который собираем все файлы js
 

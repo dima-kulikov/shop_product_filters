@@ -23,98 +23,98 @@
    "name":"Pavilion -1",
    "avatar":"https://i.eldorado.ua//goods_images/1039096/7012257-1614585648.jpg",
    "brand": "HP",
-   "prise":"19999",
+   "prise":19999,
    "screen": "15.6"
 },
 {
    "name":"MacBook Air -1",
    "avatar":"https://content1.rozetka.com.ua/goods/images/big/144249716.jpg",
    "brand": "Apple",
-   "prise":"33900",
+   "prise":33900,
    "screen": "13"
 },
 {
    "name":"NoteBook -2",
    "avatar":"https://stylus.ua/thumbs/568x568/05/dc/1488261.jpeg",
    "brand": "Xiaomi",
-   "prise":"32600",
+   "prise":32600,
    "screen": "15.6"
 },
 {
    "name":"Laptop -2",
    "avatar":"https://content2.rozetka.com.ua/goods/images/big/161140204.jpg",
    "brand": "Asus",
-   "prise":"15000",
+   "prise":15000,
    "screen": "15.6"
 },
 {
    "name":"ideapad  Platinum -2",
    "avatar":"https://i1.foxtrot.com.ua/product/MediumImages/6488851_0.jpg",
    "brand": "Lenovo",
-   "prise":"12900",
+   "prise":12900,
    "screen": "15.6"
 },
 {
    "name":"Pavilion -2",
    "avatar":"https://i.eldorado.ua//goods_images/1039096/7012257-1614585648.jpg",
    "brand": "HP",
-   "prise":"19999",
+   "prise":19999,
    "screen": "15.6"
 },
 {
    "name":"MacBook Air -2",
    "avatar":"https://content1.rozetka.com.ua/goods/images/big/144249716.jpg",
    "brand": "Apple",
-   "prise":"33900",
+   "prise":33900,
    "screen": "13"
 },
 {
     "name":"Pavilion -3",
     "avatar":"https://i.eldorado.ua//goods_images/1039096/7012257-1614585648.jpg",
     "brand":"HP",
-    "prise":"17 499",
+    "prise":17499,
     "screen":"15.6"
  },
  {
     "name":"MacBook Air -3",
     "avatar":"https://content1.rozetka.com.ua/goods/images/big/144249716.jpg",
     "brand":"Apple",
-    "prise":"38900",
+    "prise":38900,
     "screen":"13"
  },
  {
     "name":"NoteBook -4",
     "avatar":"https://stylus.ua/thumbs/568x568/05/dc/1488261.jpeg",
     "brand":"Xiaomi",
-    "prise":"42100",
+    "prise":42100,
     "screen":"15.6"
  },
  {
     "name":"Laptop -4",
     "avatar":"https://content2.rozetka.com.ua/goods/images/big/161140204.jpg",
     "brand":"Asus",
-    "prise":"13500",
+    "prise":13500,
     "screen":"15.6"
  },
  {
     "name":"ideapad  Platinum -4",
     "avatar":"https://i1.foxtrot.com.ua/product/MediumImages/6488851_0.jpg",
     "brand":"Lenovo",
-    "prise":"17900",
+    "prise":17900,
     "screen":"15.6"
  },
  {
     "name":"Pavilion -4",
     "avatar":"https://i.eldorado.ua//goods_images/1039096/7012257-1614585648.jpg",
     "brand":"HP",
-    "prise":"18699",
+    "prise":18699,
     "screen":"15.6"
  },
  {
     "name":"MacBook Air -4",
     "avatar":"https://content1.rozetka.com.ua/goods/images/big/144249716.jpg",
     "brand":"Apple",
-    "prise":"25900",
+    "prise":25900,
     "screen":"13"
  }
 ]
