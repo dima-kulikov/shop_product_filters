@@ -1,6 +1,6 @@
 import './user-profile';
 
-// test.init();
+// файл в который собираем все файлы js
 
 // document.getElementById('container').innerHTML = test.init();
 

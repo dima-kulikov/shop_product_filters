@@ -22,19 +22,40 @@
 
   <section>
     <div class="menu-container">
-      <span class="text-container__name">Бренд</span>
-      <button data-name="Lenovo" class="btn">Lenovo</button>
-      <button data-name="Asus" class="btn">Asus</button>
-      <button data-name="Xiaomi" class="btn">Xiaomi</button>
-      <button data-name="HP" class="btn">HP</button>
-      <button data-name="Apple" class="btn">Apple</button>
+      <div class="menu-brend">
+        <span class="text-container__name">Бренд</span>
+        <button data-name="Lenovo" class="btn">Lenovo</button>
+        <button data-name="Asus" class="btn">Asus</button>
+        <button data-name="Xiaomi" class="btn">Xiaomi</button>
+        <button data-name="HP" class="btn">HP</button>
+        <button data-name="Apple" class="btn">Apple</button>
+      </div>
+
+      <!-- Фильтр цены от и до -->
+      <div class="prise-filter">
+        <p class='center'>Выбор стоимости</p>
+
+        <div class='block__prise'>
+          <input class="price-value" id="min-price" type="text">
+          <input class="price-value" id="max-price" type="text">
+          <div class="block__prise__text">
+            <span>от</span>
+            <span>до</span>
+          </div>
+          <button id="btn__price">Просчет</button>
+        </div>
+      </div>
     </div>
 
 
+    <!-- блоки с товарами -->
     <div id="container" class="test-container"></div>
     <div class="profile-container"></div>
+
+
+
   </section>
-  <button id="filter">filter</button>
+  <!-- <button id="filter">filter</button> -->
 </body>
 
 </html>

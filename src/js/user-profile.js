@@ -40,6 +40,38 @@ menu.addEventListener('click', function (event) {
 
 
 
-
+// Фильтр цены от и до
 
 //  users.filter(us=> min < us.prise && us.prise< max )
+
+
+const btnPrice = document.querySelector('#btn__price');
+const minPrice = document.getElementById("min-price");
+const maxPrice = document.getElementById("max-price");
+
+
+
+btnPrice.addEventListener('click', ()=>{
+    let resultPrice = [];
+
+  const filteredPrice = data.filter(us=> minPrice.value < us.prise && us.prise< maxPrice.value );
+
+   filteredPrice.forEach(user => {
+    const testPrise = testTemplate(user);
+    resultPrice.push(testPrise);
+});
+
+testContainer.innerHTML = resultPrice.join('');
+console.log(minPrice.value);
+console.log(maxPrice.value);
+// console.log(data);
+// console.log(data.price);
+let ids = []
+// const pp = data.forEach((value) => {
+//     ids.push(value.prise);
+// });
+
+console.log(ids);
+// console.log(data[1].prise);
+// console.log(resultPrice);
+});

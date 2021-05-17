@@ -35,7 +35,11 @@ margin: 0px 10px;
 .button:hover{
     background-color: rgb(221, 119, 88);
 }
-
+.text-container__name{
+    text-align: center;
+    display: block;
+    padding: 10px 0px;
+}
 .user-profile{
     padding: 10px;
     margin-top: 50px;
@@ -83,7 +87,8 @@ section{
     margin: 20px 0px;
     display: inline;
     width: 10%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+    box-shadow: 0 0 10px 5px rgb(199, 194, 194);
 }
 
 .btn{
@@ -96,4 +101,49 @@ section{
 .btn:hover {
     background-color: black;
     color: white;
+    padding-bottom: 10px;
+}
+
+.menu-brend{
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset; */
+    padding-bottom: 20px;
+}
+/* меню стоимости товарки от и до */
+
+.prise-filter{
+    margin-top: 10px;
+    /* border: 2px solid black; */
+    /* box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+    -23px 0 20px -23px rgba(0, 0, 0, .8),
+    23px 0 20px -23px rgba(0, 0, 0, .8),
+    0 0 40px rgba(0, 0, 0, .1) inset; */
+}
+.block__prise{
+    
+    /* padding: 10px 0px; */
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.center{
+    text-align: center;
+    display: block;
+
+}
+.price-value{
+    width: 30%;
+}
+#btn__price{
+    display: block;
+    margin: 0px auto;
+    width: 80%;
+}
+.block__prise__text{
+width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
