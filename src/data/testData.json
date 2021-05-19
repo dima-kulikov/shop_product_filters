@@ -45,14 +45,14 @@
    "avatar":"https://content2.rozetka.com.ua/goods/images/big/161140204.jpg",
    "brand": "Asus",
    "prise":15000,
-   "screen": "15.6"
+   "screen": "18"
 },
 {
    "name":"ideapad  Platinum -2",
    "avatar":"https://i1.foxtrot.com.ua/product/MediumImages/6488851_0.jpg",
    "brand": "Lenovo",
    "prise":12900,
-   "screen": "15.6"
+   "screen": "13"
 },
 {
    "name":"Pavilion -2",
@@ -94,7 +94,7 @@
     "avatar":"https://content2.rozetka.com.ua/goods/images/big/161140204.jpg",
     "brand":"Asus",
     "prise":13500,
-    "screen":"15.6"
+    "screen":"18"
  },
  {
     "name":"ideapad  Platinum -4",
@@ -108,7 +108,7 @@
     "avatar":"https://i.eldorado.ua//goods_images/1039096/7012257-1614585648.jpg",
     "brand":"HP",
     "prise":18699,
-    "screen":"15.6"
+    "screen":"13"
  },
  {
     "name":"MacBook Air -4",

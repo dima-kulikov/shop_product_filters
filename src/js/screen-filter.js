@@ -10,8 +10,18 @@ const testContainer = document.querySelector('.test-container');
 
 btnInputFilter.addEventListener('click', () =>{
     if(first.checked){
-        console.log("работает")
-     }else{
-        console.log("sadsadsadsa")
+    const firstAnsver = data.filter(us=> us.screen == 13);
+        testContainer.innerHTML = testTemplate({ users: firstAnsver })
+     }
+     if(second.checked){
+    const secondAnsver = data.filter(us=> us.screen == 15.6);
+        testContainer.innerHTML = testTemplate({ users: secondAnsver })
+     }
+     if(third.checked){
+    const thirdAnsver = data.filter(us=> us.screen == 18);
+        testContainer.innerHTML = testTemplate({ users: thirdAnsver })
+     }
+     else{
+        testContainer.innerHTML = testTemplate({ users: data })
      }
 });
