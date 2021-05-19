@@ -8,16 +8,8 @@ const testContainer = document.querySelector('.test-container');
 
 
 
-btnPrice.addEventListener('click', ()=>{
-    let resultPrice = [];
+btnPrice.addEventListener('click', () => {
+  const filteredPrice = data.filter(us=> minPrice.value < us.prise && us.prise< maxPrice.value);
 
-  const filteredPrice = data.filter(us=> minPrice.value < us.prise && us.prise< maxPrice.value );
-
-   filteredPrice.forEach(user => {
-    const testPrise = testTemplate(user);
-    resultPrice.push(testPrise);
-});
-
-testContainer.innerHTML = resultPrice.join('');
-
+  testContainer.innerHTML = testTemplate({ users: filteredPrice })
 });

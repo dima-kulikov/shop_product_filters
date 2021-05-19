@@ -17,12 +17,7 @@ const fillContainer = (brand) => {
     }
    
 
-    filteredBrands.forEach(user => {
-        const test = testTemplate(user);
-        result.push(test);
-    });
-
-    testContainer.innerHTML = result.join('');
+    testContainer.innerHTML = testTemplate({users: filteredBrands});
 }
 
 fillContainer();

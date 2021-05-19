@@ -1,10 +1,12 @@
+{{#each users}}
 <div class="user-profile">
-  <span class="cart-name">{{ brand }}: {{ name }}</span>
- <div class="img-block"> <img class="avatars" src="{{ avatar }}" alt=""></div>
+  <span class="cart-name">{{ this.brand }}: {{ this.name }}</span>
+ <div class="img-block"> <img class="avatars" src="{{ this.avatar }}" alt=""></div>
   <ul class="info">
-      <li><b>Модель:</b> {{ name }}</li>
-      <li><b>Бренд:</b> {{ brand }}</li>
-      <li><b>Экран:</b> {{ screen }}</li>
-      <li><b>Цена:</b> {{ prise }}</li>
+      <li><b>Модель:</b> {{ this.name }}</li>
+      <li><b>Бренд:</b> {{ this.brand }}</li>
+      <li><b>Экран:</b> {{ this.screen }}</li>
+      <li><b>Цена:</b> {{ this.prise }}</li>
   </ul>
 </div>
+{{/each}}
