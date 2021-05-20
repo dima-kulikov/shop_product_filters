@@ -4,6 +4,14 @@ import testTemplate from '../templates/test.hbs';
 const testContainer = document.querySelector('.test-container');
 const menu = document.querySelector('.menu-container');
 
+
+
+
+
+
+
+
+
 //фильтр выбора бренда
 const fillContainer = (brand) => {
     let result = [];
@@ -31,4 +39,13 @@ menu.addEventListener('click', function (event) {
         window.location.hash = brand
         fillContainer(brand);
     }
+});
+
+
+// просто вывод всех товаров на сай
+const allProductsp = document.querySelector('#all-products');
+
+allProductsp.addEventListener('click', ()=>{
+    testContainer.innerHTML = testTemplate({ users: data })
+    window.location = window.location.origin + window.location.pathname
 });
